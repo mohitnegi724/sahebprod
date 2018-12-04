@@ -80,8 +80,8 @@ section{
 	display: none;
 }
 #Logo{
-	width: 8vh;
-	height: 8vh;
+	width: 10vh;
+	height: 10vh;
     z-index: 9999;
     margin-left: 30px;
 	margin-top: 1vh;
@@ -101,7 +101,7 @@ section{
 	background: rgba(64, 64, 64, 0.5);
 	z-index: 100;
 	display: inline-flex;
-	height: 8vh;
+	height: 10vh;
 	color: white;
 	width: 100%;
 	position: fixed;
@@ -933,8 +933,8 @@ textarea#newoptions {
 	margin-left: auto;
 	width: 70vw;
 	height: auto;
-	bottom: 10vw;
-	top: 10vw;
+	/* bottom: 10vw; */
+	top: 25vh;
 	left: 12vw;
 	right: 20vw;
 	display: inline-block;
@@ -947,7 +947,7 @@ textarea#newoptions {
 .WhatsOnTheMenuContainer ul {
 	list-style: none;
 	width: 100%;
-	height: 50%;
+	/* height: 50%; */
 	display: block;
 	text-align: center;
 	position: relative;
@@ -982,6 +982,7 @@ textarea#newoptions {
 .MenuContent {
 	width: 100%;
 	text-align: justify;
+	top: 1vh;
 	/* position: absolute; */
 	position: relative;
 	bottom: -30vh;
@@ -1071,19 +1072,19 @@ textarea#newoptions {
 
 /* Contact Us */
 .topContact {
-	padding-top: 10vw;
-	display: -webkit-box;
-	position: relative;
-	/* height: 50%; */
-	margin-right: auto;
-	width: 70%;
-	margin-left: auto;
+	top: 20vh;
+	display: inline-block;
+	position: absolute;
+	height: 40vh;
+	/* left: 10vw; */
+	/* right: 10vw; */
+	/* width: 80vw; */
 }
 .reachUs{
 	position: absolute;
-    bottom: 2vw;
-	width: 100%;
-	height: 40%;
+    bottom: 10vh;
+	width: 100vw;
+	height: 25vh;
 }
 .reachUsInVerticalCenter{
 	top: 50%;
@@ -1093,15 +1094,18 @@ textarea#newoptions {
 	transform: translate(-50%,-50%)
 }
 .ContactContainer {
+	position: relative;
 	width: 100%;
     height: 100%;
-    position: relative;
-    display: inline-block;
+	/* display: inline-block; */
+	/* text-align: center; */
 }
 
 .contact_left {
-	margin-left: 10%;
-	width: 30%;
+	position: absolute;
+	/* margin-left: 10%; */
+	height: 40vh;
+	width: 50vh;
 	text-align: center;
 }
 
@@ -1114,21 +1118,23 @@ textarea#newoptions {
 }
 
 .contact_right {
-	width: 50%;
-	margin-top: 5vw;
-	margin-right: 10%;
+	left: 45vh;
+	position: absolute;
+	width: auto;
+	bottom: 22%;
 	text-align: center;
 }
 
 .contact_right ul {
-	width: 100%;
+	display: inline-block;
+	width: 50vw;
 	text-align: center;
 	list-style: none;
 }
 
 .contact_right ul li {
-	width: 30%;
-	height: 200px;
+	width: 14vw;
+	/* height: 200px; */
 	text-align: center;
 	display: inline-block;
 	list-style: none;
@@ -1136,17 +1142,18 @@ textarea#newoptions {
 
 .contact_Heading {
 	color: white;
+	width: 15vw;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	margin: 7px 0px;
 	font-weight: normal;
-	font-size: calc(18px + .5vw);
+	font-size: 2.5vw;
 	font-family: bud_easymedium;
 }
 
 .contact_Content {
 	color: white;
-	font-size: calc(11px + .5vw);
+	font-size: 1.5vw;
 	margin-left: auto;
 	letter-spacing: 2px;
 	margin-right: auto;
@@ -1155,20 +1162,22 @@ textarea#newoptions {
 }
 
 .contact_right ul li img {
-	max-width: 30px;
-	position: relative;
-	width: 4vw;
+	/* max-width: 30px; */
+	/* position: relative; */
+	width: 3vw;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .Contact_Social {
-	margin-right: auto;
-	margin-left: auto;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	position: relative;
+	/* margin-right: auto; */
+	/* margin-left: auto; */
+	padding-top: 2vh;
+	height: 5vh;
+	width: 100vw;
+	/* padding-left: 20px; */
+	/* padding-right: 20px; */
+	position: absolute;
 }
 
 .Contact_Social ul {
