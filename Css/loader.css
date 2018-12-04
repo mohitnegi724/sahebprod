@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+.preloader-wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0; 
+  bottom: 0;
+  background: rgba(255,255,255,1);
+  z-index : 10; 
+}
+
+.percentage {
+  z-index: 100;
+  border: 1px solid #ccc;
+  text-align:center;
+  color: #000;
+  line-height: 30px;
+  font-size : 15px;
+}
+
+.loader,
+.percentage{
+  height: 30px;
+  max-width: 500px; 
+  border: 6px solid #69AF23;
+  border-radius: 10px;
+  font-weight: 300;
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  margin : auto; 
+}
+.loader:after,
+.percentage:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.trackbar {
+  width: 100%;
+  height: 100%;border-radius: 20px;color: #fff;
+  text-align: center;line-height: 30px;position: relative;opacity: 0.99;
+}
+.trackbar:after{ content:""; position:absolute; right:-170px; top:-50px; width:150px; height:150px; background:url(../Images/load_2.png) no-repeat;}
+.trackbar:before{ content:""; position:absolute; left:-80px; top:-20px; width:80px; height:80px; background:url(../Images/load_1.png) no-repeat;}
+.loadbar {width: 0%;height: 100%;background:#fcb040;position: absolute;top: 0;left: 0;animation: flicker 5s infinite;overflow: hidden;}
+.glow {width:0%;height:0%;position:absolute;bottom:-5px;animation: animation 5s infinite;}
+
+@keyframes animation {
+  10% {
+    opacity: 0.9;
+  }
+  30% {
+    opacity: 0.86;
+  }
+  60% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.75;
+  }
+}

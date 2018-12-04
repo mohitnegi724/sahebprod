@@ -1,0 +1,173 @@
+@media screen and (max-width: 768px){
+    .Header{
+        display: none !important;
+    }
+    .MainPageVideosContainerWithBorder{
+            width: 98%;
+            height: 530px;
+            display: inline-block;
+    }
+    .top-left {
+        width: 10vw;
+        top: 8px;
+        left: 8px;
+    }
+    .top-right {
+        width: 10vw;
+        top: 8px;
+        right: 8px;
+    }
+    .bottom-right {
+        width: 20vw;
+        bottom: 5px;
+        right: 6px;
+    }
+    .bottom-left {
+        width: 10vw;
+        bottom: 7px;
+        left: 8px;
+    }
+    .MainPageVideosContainer{
+        display: inline-block;
+    }
+    .ShootVideoDiv {
+        width: 100%;
+        height: 250px;
+    }
+    #shootVideoIcon{
+        width: 100%;
+    }
+    .playVideoIcon{
+        width: 100%;
+    }
+    .GFXVideoDiv {
+        width: 100%;
+        height: 250px;
+    }
+    #GFXVideoIcon{
+        width: 100%;
+    }
+    .MeetYourHostsContainer>h3 {
+        font-size: 22px;
+    }
+    .AnimatedMeetYourHostsContainer{
+        top: 60%;
+    }
+    .ShowCaseDetails{
+        background: none;
+        top: 0;
+        transform: none;
+        left: 0;
+        height: 60%;
+    }
+    #VideoProductDetail{
+        text-align: center;
+        font-size: 12px;
+        top: 0%;
+        transform: none;
+        left: 0;
+    }
+    #PlayNowContainer{
+        margin-top: 35px;
+        display: inline-block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+    }
+    #PlayNow{
+        width: 100%;
+    }
+    #ShowCaseFullDetail{
+        background: none;
+        width: 100%;
+    }
+    #ShowCaseDetailImage{
+        width: 95%;
+        height: 100%;
+        max-height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        bottom: 5%;
+        position: absolute;
+        display: block;
+    }
+    .ShowCaseMainContainer{
+        display: block;
+    }
+    #section2 .fp-tableCell{
+        background: black;
+        vertical-align: initial;
+    }
+    .animatedCarousel{
+        top: 0;
+        background: turquoise;
+        height: 360px;
+        position: relative
+    }
+    .WhatsOnTheMenuContainer{
+        width: 100%;
+        height: 40%;
+        display: inline-block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        transform: none;
+        top: initial;
+        left: initial;
+        background: burlywood;
+    }
+    .WhatsOnTheMenuContainer ul{
+        display: none;
+  }
+    .WhatsOnTheMenuContainer ul li{
+        max-width: 100px;
+        margin: 0;
+        width: 20%;
+        display: table-cell;
+    }
+    .WhatsOnTheMenuContainer ul li h3{
+        font-size: 25px;
+    }
+    .MenuContent{
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+        position: relative;
+    }
+    #section2 p{
+        font-size: 12px;
+    }
+    .MenuImages01 {
+        bottom: -4vw;
+    }
+    .main{
+     position: absolute;
+     bottom: 0;   
+    }
+    .ShowCaseMainContainer{
+        display: none;
+    }
+    .showCaseNav{
+        bottom: 0;
+    }
+    .showCaseNav div img{
+        width: 85vw;
+    }
+    .swiper-container{
+        display: -webkit-inline-box;
+    }
+    .selected{
+        width: 85vw;
+    }
+    .selected .UpArrow{
+        top: 40%;
+        width: 20%;
+    }
+    .brand{
+        font-size: 12px;
+    }
+};

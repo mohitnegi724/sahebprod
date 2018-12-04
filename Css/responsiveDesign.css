@@ -1,0 +1,567 @@
+For Width 768 Px to 999px
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+	/* #carouselHeader {
+		text-align: center;
+		width: 600px !important;
+	} */
+
+	/* #carouselHeader div {
+		font-size: 12px !important;
+		width: 80px !important;
+	} */
+	/* p {
+		font-size: 16px !important;
+	} */
+	#VideoProductHeading {
+		font-size: 25px;
+		text-transform: uppercase;
+		padding: 2px;
+	}
+	/*Main Page*/
+	.top-left {
+		width: 10vw;
+		top: 7px;
+		left: 7px;
+	}
+
+	.top-right {
+		width: 10vw;
+		top: 7px;
+		right: 7px;
+	}
+
+	.bottom-right {
+		width: 10vw;
+		bottom: 7px;
+		right: 7px;
+	}
+
+	.bottom-left {
+		width: 10vw;
+		bottom: 7px;
+		left: 7px;
+	}
+
+	.MainPageVideosContainerWithBorder {
+	    height: 255px;
+	    width: 700px;
+	}
+
+	.MainPageVideosContainer {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    width: 80vw;
+	    width: 660px;
+	    height: 210px;
+	    overflow: hidden;
+	    background: transparent;
+	    display: inline-flex;
+	    margin-left: auto;
+	    margin-right: auto;
+	    z-index: 300;
+	}
+	.MeetYourHostsContainer {
+		transform: translate(-60%, -50%);
+	}
+
+	.MeetYourHostsContainer>p {
+		line-height: 1.3;
+		font-size: 15px;
+		letter-spacing: 2px;
+	}
+
+	#section2 p {
+		font-size: 12px;
+		font-family: Libre Baskerville;
+	}
+
+	.WhatsOnTheMenuContainer ul li h3 {
+		font-size: 25px;
+	}
+
+	.brand {
+		text-transform: uppercase;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 15px;
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+	}
+	/* .Home, .Menu, .Hosts, .Showcase, .Clients, .Contact{
+		line-height: 1.2;	
+		font-size: 16px;
+	} */
+	/* .Hosts:before {
+		content: "";
+		width: 40px;
+		height: 30px;
+		background: url(./../Media/clients/Host01.png) center center no-repeat;
+		position: absolute;
+		top: -10px;
+		background-position: center;
+		left: -30px;
+		background-size: contain;
+	}
+	.Hosts:after {
+		content: "";
+		width: 30px;
+		height: 40px;
+		background: url(./../Media/clients/Host02.png) center center no-repeat;
+		position: absolute;
+		background-size: contain;
+		top: -10px;
+		background-position: center;
+	}
+	.Menu:before {
+		content: "";
+		width: 30px;
+		height: 50px;
+		background: url(http://sahebproductions.com/images/icon1.png) center center no-repeat;
+		position: absolute;
+		top: -20px;
+		left: -30px;
+		background-size: contain;
+		background-position: center;
+	}
+	.Menu:after {
+		content: "";
+		width: 35px;
+		height: 30px;
+		background: url(http://sahebproductions.com/images/icon2.png) center center no-repeat;
+		position: absolute;
+		top: -10px;
+		background-size: contain;
+		right: -40px;
+		background-position: center;
+	}
+	.Showcase:before {
+		content: "";
+		width: 20px;
+		height: 50px;
+		background: url(http://sahebproductions.com/images/icon3.png) center center no-repeat;
+		position: absolute;
+		top: -20px;
+		left: 0px;
+		background-size: contain;
+		background-position: center;
+	}
+	.Showcase:after {
+		content: "";
+		width: 20px;
+		height: 50px;
+		background: url(http://sahebproductions.com/images/icon4.png) center center no-repeat;
+		position: absolute;
+		top: -20px;
+		right: 0px;
+		background-size: contain;
+		background-position: center;
+	}
+	.Clients:before {
+		content: "";
+		width: 30px;
+		height: 30px;
+		background: url(./../Media/clients/client01.png) center center no-repeat;
+		position: absolute;
+		top: -10px;
+		background-size: contain;
+		background-position: center;
+		left: -20px;
+	}
+	.Clients:after {
+		content: "";
+		width: 30px;
+		height: 30px;
+		background: url(./../Media/clients/client02.png) center center no-repeat;
+		position: absolute;
+		top: -10px;
+		right: -15px;
+		background-size: contain;
+		background-position: center;
+	}
+	.Contact:before {
+		content: "";
+		width: 30px;
+		height: 30px;
+		background: url(./../Media/clients/selected01.png) center center no-repeat;
+		position: absolute;
+		top: -10px;
+		left: -10px;
+		background-size: contain;
+		background-position: center;
+	}
+	.Contact:after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background: url(./../Media/clients/selected02.png) center center no-repeat;
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    background-size: contain;
+    background-position: center;
+} */
+
+}	
+/*For Width 1000 Px to 1200px*/
+@media screen and (min-width: 1001px) and (max-width: 1250px) {
+	.WhatsOnTheMenuContainer {
+		width: 1000px;
+		margin-right: auto;
+		text-align: center;
+		margin-left: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		/* width: 80%; */
+		height: 70%;
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Main Page*/
+	.top-left {
+		width: 10vw;
+		top: 5px;
+		left: 5px;
+	}
+
+	.top-right {
+		width: 10vw;
+		top: 5px;
+		right: 5px;
+	}
+
+	.bottom-right {
+		width: 10vw;
+		bottom: 5px;
+		right: 5px;
+	}
+
+	.bottom-left {
+		width: 10vw;
+		bottom: 5px;
+		left: 5px;
+	}
+
+	.MainPageVideosContainerWithBorder {
+	    height: 325px;
+	    width: 90vw;
+	    max-width: 845px;
+	}
+
+	.MainPageVideosContainer {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    width: 80vw;
+	    max-width: 800px;
+	    height: 280px;
+	    overflow: hidden;
+	    background: transparent;
+	    display: inline-flex;
+	    margin-left: auto;
+	    margin-right: auto;
+	    z-index: 300;
+	}
+
+	.brand {
+		text-transform: uppercase;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 10px;
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+	}
+	/* #carouselHeader {
+		width: 900px !important;
+	}
+	#carouselHeader div {
+		font-size: 20px !important;
+		width: 140px !important;
+	} */
+}
+@media screen and (min-width: 1251px) and (max-width: 1600px){
+	/* #HomeDiv{
+		width: 50px !important;
+	}
+	#HostsDiv {
+		width: 115px !important;
+	}
+	#MenuDiv {
+		width: 150px !important;
+	}
+	#ShowcaseDiv {
+		width: 62px !important;
+	}
+	#ClientsDiv {
+		width: 76px !important;
+	}
+	#ContactDiv {
+		width: 76px !important;
+	} */
+}
+@media screen and (min-width: 1601px){
+	.WhatsOnTheMenuContainer{
+		max-width: initial;
+		width: 70%;
+		height: 70%;
+	}
+	#carouselHeader div {
+		width: auto;
+	}
+	#section2 p{
+		font-size: 3.2vmin;
+		letter-spacing: 0.5vmin;
+	}
+	.MeetYourHostsContainer>p{
+		font-size: 3.2vmin;
+	}
+	.MeetYourHostsContainer>h3{
+		font-size: 3.5vmin;
+	}
+	#SeeMore{
+		font-size: 3.2vmin;
+	}
+	p,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	a{
+		font-size: 3.2vmin;
+	}
+	.topContact{
+		padding-top: 0;
+		display: -webkit-box;
+		position: relative;
+		margin-right: auto;
+		width: 70%;
+		height:30%;
+		margin-left: auto;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, -100%);
+	}
+	.contact_right{
+		margin-top: 0;
+	}
+	.contact_left{
+		position: relative;
+		width:33%;
+	}
+	.contact_left img {
+		min-width: initial;
+		max-width: 100%;
+		width: 90%;
+		max-height: 60vw;
+		position: absolute;
+		height: initial;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.contact_Content{
+		font-size: calc(11px + 1.0vw)
+	}
+	.contact_Content>a{
+		font-size: calc(11px + 1.0vw)
+	}
+	.contact_right ul {
+		width: 100%;
+		text-align: center;
+		padding-top: 10%;
+		list-style: none;
+		height: 100%;
+	}
+	.contact_right ul li img{
+		max-width: 50px;
+	}
+	.Contact_Social ul{
+		width: 50%;
+		margin-right: auto;
+		margin-left: auto
+	}
+	.WhatsOnTheMenuContainer ul li {
+		max-width: initial;
+		text-align: center;
+		margin: 20px;
+		width: 28%;
+		display: inline-block;
+		position: relative;
+	}
+	.WhatsOnTheMenuContainer ul li h3 {
+		font-size: 3.2vmin;
+		letter-spacing: 0.5vmin;
+	}
+	.Header{
+		height: 8vh;
+	}
+	#carouselHeader{
+		line-height: 4vh;
+	}
+	#carouselHeader>div>p{
+		font-size: 1.5vw;;
+	}
+	.Home, .Hosts, .Menu, .Showcase, .Contact, .Clients {
+		font-weight: bold;
+		font-size: 1.5vw;
+		line-height: 4vh;
+	}
+	#ClientBanner {
+		height: 150px;
+	}
+	#ClientBanner .BannerSlider {
+		height:100%;
+	}
+	#ClientBanner .BannerSlider .banner {
+		width: 150px !important;
+		line-height: 150px;
+		height: 150px;
+	}
+	#ClientBanner .BannerSlider .banner img {
+		max-height: 150px;
+		vertical-align: middle;
+		width: 60%;
+		object-fit: cover;
+		display: inline-block;
+		line-height: 150px;
+	}
+	.cloud1 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		height: 300px;
+		position: relative;
+	}
+
+	.cloud1 a {
+		outline: none;
+		cursor: pointer;
+		padding: 5px;
+		border-radius: 6px;
+		background: #fff;
+		position: absolute;
+	}
+
+	.cloud2 {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		height: 300px;
+		position: relative;
+	}
+
+	.cloud2 a {
+		outline: none;
+		cursor: pointer;
+		padding: 5px;
+		border-radius: 6px;
+		background: #fff;
+		position: absolute;
+	}
+
+	.cloud1 a img {
+		width: 100%;
+	}
+
+	.cloud2 a img {
+		width: 100%;
+	}
+
+	.sameSizeDiv {
+		text-align: center;
+		min-width: 200px !important;
+		position: relative;
+	}
+
+	.sameSizeDiv img {
+		float: right;
+		width: 80%;
+	}
+	.ca1 {
+		right: 5%;
+		top: 60%;
+	}
+	.ca2 {
+		right: 0%;
+		bottom: 27%;
+	}
+	.ca3 {
+		bottom: 0%;
+		left: 55%;
+	}
+	.ca4 {
+		right: -10%;
+		bottom: 44%;
+	}
+	.ca5 {
+		bottom: 25%;
+		left: 55%;
+	}
+	.ca6 {
+		bottom: 50%;
+		right: -5%;
+	}
+	.ca7 {
+		left: 55%;
+		bottom: 25%;
+	}
+	.ca8 {
+		right: -10%;
+		bottom: 45%;
+	}
+	.ca9 {
+		right: 0%;
+		top: 60%;
+	}
+	.ca10 {
+		right: -10%;
+		bottom: 45%;
+	}
+	/* #HomeDiv {
+		width: 50px !important;
+	}
+
+	#HostsDiv {
+		width: 180px !important;
+	}
+
+	#MenuDiv {
+		width: 210px !important;
+	}
+
+	#ShowcaseDiv {
+		width: 80px !important;
+	}
+
+	#ClientsDiv {
+		width: 180px !important;
+	}
+
+	#ContactDiv {
+		width: 140px !important;
+	} */
+
+	.Home,
+	.Hosts,
+	.Menu,
+	.Showcase,
+	.Contact,
+	.Clients {
+		margin-top: 0px !important;
+	}
+};

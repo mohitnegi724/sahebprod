@@ -1,0 +1,342 @@
+/* DO NOT EDIT THIS CODE. THIS CODE IS RESPONIBLE TO RUN THE CLIENT LOGO SLIDER */
+
+.Slider{
+    width: 100%;
+    position: absolute;
+    height:300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+
+/* Slider */
+.cloud {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    display: none;
+}
+
+.cloud1 { 
+    text-align: center;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.cloud1 a {
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    background: #fff;
+    position: absolute;
+}
+
+.cloud2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+
+.cloud2 a {
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 6px;
+    background: #fff;
+    position: absolute;
+}
+.cloud1 a img {
+    width: 100%;
+}
+.cloud2 a img{
+    width: 100%;
+}
+.sameSizeDiv{
+    text-align: center;
+    min-width: 200px !important;
+    position: relative;
+}
+.sameSizeDiv img{
+    float: right;
+}
+
+
+/* LogoS Position With Cloud */
+.ca1 {
+    right: 0px;
+    top: 155px;
+}
+
+.ca2 {
+    right: -20px;
+    bottom: -70px;
+}
+
+.ca3 {
+    bottom: -70px;
+    left: 45%;
+}
+
+.ca4 {
+    right: -40px;
+    bottom: -15px;
+}
+
+.ca5 {
+    bottom: 10px;
+    left: 45%;
+}
+
+.ca6 {
+    bottom: -10px;
+    right: -30px;
+}
+
+.ca7 {
+    left: 40%;
+    bottom:10px;
+}
+
+.ca8 {
+    right: -40px;
+    bottom: -20px;
+}
+
+.ca9 {
+    right: 5px;
+    top: 155px;
+}
+
+.ca10 {
+    right: -40px;
+    bottom: -20px;
+}
+
+/* Bottom Client Banner */
+#ClientBanner{
+    height: 100px;
+    width: 100vw;
+    bottom: 0;
+    position: absolute;
+}
+#ClientBanner .BannerSlider {
+    background: rgb(252,252,252);
+    width: 4368px ;
+    height: 100px;
+    bottom: 0;
+}
+#ClientBanner .BannerSlider .banner{
+    vertical-align: middle;
+    line-height: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    width: 100px!important;
+    border-right: 1px solid black;
+    overflow: hidden;
+}
+#ClientBanner .BannerSlider .banner img{
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    max-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    display: inline-block;
+    line-height: 100px;
+}
+
+
+/* Showcase Slider */  
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.Slider .slick-list{
+    position: relative;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.slick-prev,
+.slick-next{
+    margin-top:0 !important;
+    width: 20px;
+    height: auto;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+/* Showcase Slider */
+#ShowCaseOptions{
+    margin-right: auto;
+    margin-left: auto;
+    width: 95vw !important;
+}
+.main{
+    width: 95%;
+    margin: auto;
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    height: 40%;
+}
+.showCaseNav{
+	width: 95%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+}
+.showCaseNav .slick-list{
+    overflow: inherit;
+}
+.showCaseNav .Thumb{
+    width: 18vw;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s ease-in;
+}
+.Thumb:hover{
+    /* width: 25vw; */
+    /* height: 20vw; */
+    transform: scale(1.2);
+}
+
+.onHoverEffectThumb{
+    width: 400px!important;
+    height: 300px;
+}
+.showCaseNav div img{
+	width: 18vw;
+	cursor: pointer;
+}
+.selected{
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.9s ease-in-out;
+    height: 98%;
+    width: 18vw;
+	position: absolute;
+    background-color: rgba(32, 32, 32, 0.5);
+}
+.selected .UpArrow{
+    cursor: pointer;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.activeThumb{
+    cursor: pointer;
+    opacity: 1;
+}
+.brand{
+    text-transform: uppercase;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 30px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
