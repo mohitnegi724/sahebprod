@@ -141,7 +141,7 @@ $(document).ready(function () {
 
     // jupiter
     document.getElementById("jupiter").addEventListener("click", function () {
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/TVS-Jupiter.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/TVS-Jupiter.png";
         document.getElementById("VideoProductHeading").textContent = "TVS Jupiter Making";
         document.getElementById("details").textContent = `Is there any joy more pure than the joy of helping someone achieve their life’s dream. TVS Jupiter tried to
 											capture the same overwhelming emotion through a digital film and we were just happy to add life to this noble
@@ -163,7 +163,7 @@ $(document).ready(function () {
     //sbi
     document.getElementById("sbi").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/SBI-Prime-Card.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/SBI-Prime-Card.png";
         document.getElementById("VideoProductHeading").textContent = "SBI Prime Card";
         document.getElementById("details").textContent = `it’s happiness like always but this time it’s in your face. enter the 3d animated world of coca cola and revel in the joy of spreading happiness all around.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/PfIZUAM5_N0?version=3&enablejsapi=1");
@@ -171,7 +171,7 @@ $(document).ready(function () {
     //gpi
     document.getElementById("gpi").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/GPI.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/GPI.png";
         document.getElementById("VideoProductHeading").textContent = "GPI";
         document.getElementById("details").textContent = `GPI`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/wASA2MVPDdI?version=3&enablejsapi=1");
@@ -179,7 +179,7 @@ $(document).ready(function () {
     //himaliyan
     document.getElementById("himaliyan").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Himayan-Orchard-Pure.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Himayan-Orchard-Pure.png";
         document.getElementById("VideoProductHeading").textContent = "Himalayan Orchid Pure ";
         document.getElementById("details").textContent = ` A family gets into a Honda Amaze, what happens is sheer magic. See Chandni Chowk from the comfort of a fully loaded Sedan. `;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/jLgBkd44nMg?version=3&enablejsapi=1");
@@ -187,7 +187,7 @@ $(document).ready(function () {
     //GPI Stop Motion
     document.getElementById("gpi").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/GPI.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/GPI.png";
         document.getElementById("VideoProductHeading").textContent = "GPI Stop Motion";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/wASA2MVPDdI?version=3&enablejsapi=1");
@@ -195,15 +195,23 @@ $(document).ready(function () {
     //Coke City
     document.getElementById("coke").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Coke.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Coke.png";
         document.getElementById("VideoProductHeading").textContent = "Coke City";
+        document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
+        document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/c4VC25iKZvo?version=3&enablejsapi=1");
+    });
+    //Coke City
+    document.getElementById("music").addEventListener("click", function () {
+        $("#ShowCaseDetailImage").removeAttr("src");
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/sanu-ek-pal.png";
+        document.getElementById("VideoProductHeading").textContent = "Sanu Ek Pal";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/c4VC25iKZvo?version=3&enablejsapi=1");
     });
     //Limca PW
     document.getElementById("limca").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Limca.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Limca.png";
         document.getElementById("VideoProductHeading").textContent = "Limca PW";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/KWFhvPRo9IY?version=3&enablejsapi=1");
@@ -211,7 +219,7 @@ $(document).ready(function () {
     //horlicks
     document.getElementById("horlicks").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Horlicks.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Horlicks.png";
         document.getElementById("VideoProductHeading").textContent = "Horlicks";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/58POD7YXJQQ?version=3&enablejsapi=1");
@@ -219,7 +227,7 @@ $(document).ready(function () {
     //Pepsi Ranbir Gabbar
     document.getElementById("pepsi").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Pepsi.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Pepsi.png";
         document.getElementById("VideoProductHeading").textContent = "Pepsi Ranbir Gabbar";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/LDEuVngAMsE?version=3&enablejsapi=1");
@@ -235,7 +243,7 @@ $(document).ready(function () {
     //Skill India Logo
     document.getElementById("skiindia").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Skill-India.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Skill-India.png";
         document.getElementById("VideoProductHeading").textContent = "Skill India Logo";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/1SIwwzpp85g?version=3&enablejsapi=1");
@@ -243,7 +251,7 @@ $(document).ready(function () {
     //World Food India TVC
     document.getElementById("wfitvc").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/WFI-TVC.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/WFI-TVC.png";
         document.getElementById("VideoProductHeading").textContent = "World Food India TVC";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/FUgCglgTubg?version=3&enablejsapi=1");
@@ -259,7 +267,7 @@ $(document).ready(function () {
     //Santoor
     document.getElementById("santoor").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Santoor.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Santoor.png";
         document.getElementById("VideoProductHeading").textContent = "SANTOOR 3D";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/1SIwwzpp85g?version=3&enablejsapi=1");
@@ -267,7 +275,7 @@ $(document).ready(function () {
     //PEPSI IPL
     document.getElementById("pepsiipl").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Pepsi-IPL-Pre-Roll.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Pepsi-IPL-Pre-Roll.png";
         document.getElementById("VideoProductHeading").textContent = "PEPSI IPL";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/1SIwwzpp85g?version=3&enablejsapi=1");
@@ -275,7 +283,7 @@ $(document).ready(function () {
     //Limca LBR
     document.getElementById("limcalbr").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/LBR-2.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/LBR-2.png";
         document.getElementById("VideoProductHeading").textContent = "Limca LBR";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/swXflm_9s-U?version=3&enablejsapi=1");
@@ -283,7 +291,7 @@ $(document).ready(function () {
     //SBI FBB Card 
     document.getElementById("sbifbb").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/SBI-FBB-2.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/SBI-FBB-2.png";
         document.getElementById("VideoProductHeading").textContent = "SBI FBB Card";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/sxW9V2ButKw?version=3&enablejsapi=1");
@@ -291,7 +299,7 @@ $(document).ready(function () {
     //snapdeal
     document.getElementById("snapdeal").addEventListener("click", function () {
         $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Snapdeal.jpg";
+        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/Snapdeal.png";
         document.getElementById("VideoProductHeading").textContent = "Snapdeal Making";
         document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/1SIwwzpp85g?version=3&enablejsapi=1");
@@ -305,13 +313,13 @@ $(document).ready(function () {
         document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/Vzbg8JbByMI?version=3&enablejsapi=1");
     });
     //sbidoctor
-    document.getElementById("sbidoctor").addEventListener("click", function () {
-        $("#ShowCaseDetailImage").removeAttr("src");
-        document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/SBI-FBB-2.jpg";
-        document.getElementById("VideoProductHeading").textContent = "SBI DOCTORS CARD";
-        document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
-        document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/oOuanHfVc1E?version=3&enablejsapi=1");
-    });
+    // document.getElementById("sbidoctor").addEventListener("click", function () {
+    //     $("#ShowCaseDetailImage").removeAttr("src");
+    //     document.getElementById("ShowCaseDetailImage").src = "./Media/work/Banners/SBI-FBB-2.png";
+    //     document.getElementById("VideoProductHeading").textContent = "SBI DOCTORS CARD";
+    //     document.getElementById("details").textContent = `Take the joy of sharing and spreading happiness, throw in some old world Sher-o- Shaayari, add an A List Celeb and you get a campaign that remains etched in your memory for ages. That is what happened when Snapdeal, Brand Ambassador - Aamir Khan, chose to tell a story. We were only too happy to direct and see the magic unfold.`;
+    //     document.getElementById("openedYoutubeVideo").setAttribute("src", "https://www.youtube.com/embed/oOuanHfVc1E?version=3&enablejsapi=1");
+    // });
 
     // Closing Opened Video And Setting Attribute To Default One
     $("#closeVideo").click(function () {
